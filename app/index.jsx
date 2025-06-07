@@ -5,9 +5,9 @@ import { Link } from 'expo-router';
 export default function App() {
   return (
     <View className="flex-1 items-center justify-center bg-primary">
-      <Text className="text-3xl font-bold text-secondary-200">AURA</Text>
+      <Text className="text-3xl text-secondary-200 font-pthin">AURA</Text>
       <StatusBar style="auto" />
-      <Link href={'/Profile'} className='text-blue-300'>Go To Profile</Link>
+      <Link href='/home' className='text-blue-300'>Go To Profile</Link>
     </View>
   );
 }
